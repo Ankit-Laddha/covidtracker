@@ -1,0 +1,13 @@
+server:
+  port: 9090
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: ON_PARAM
+    include-exception: false
+    whitelabel:
+      enabled: true
+    path: /error
+spring:
+  application:
+    name: Covid Tracking
